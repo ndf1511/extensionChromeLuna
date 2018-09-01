@@ -1,0 +1,11 @@
+  {
+    "name": "LunaIBMSystem",
+    "version": "1.0",
+    "description": "Build an Extension!",
+    "permissions": ["activeTab","declarativeContent","storage","tabs","storage"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "manifest_version": 2
+  }
